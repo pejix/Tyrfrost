@@ -11,3 +11,12 @@ Projektet är satt till `se.dittnamn.Tyrfrost3D`. Vill du byta? Ändra i Xcode:
 
 ## Kör
 Starta workflow **iOS TestFlight (API key)** så bygger Fastlane och laddar upp till TestFlight.
+
+
+## Nytt: STL/OBJ-import & automatisk vikt
+- I appen: Sektionen **3D-fil (mm)** → Importera STL/OBJ.
+- Antaganden: Måtten i filen är i **millimeter**. Volym räknas från mesh-ytor.
+- **Infill (%)** används som enkel faktor på volymen (t.ex. 20 % infill → 0.20× massan). Skal/top/botten modelleras inte separat i denna version.
+- Densitet hämtas från valt material (kan justeras i UI).
+
+> **STEP/STP:** kräver konvertering till triangulerad mesh (t.ex. server med Open Cascade / kommersiellt API). Jag kan koppla in ett serverflöde eller konvertering i Codemagic-pipelinen om du vill.
