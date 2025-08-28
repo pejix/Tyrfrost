@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		F573EDF1B07B4C3F90D761E5 /* Tyrfrost3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F79777DDDE74873B77CA703 /* Tyrfrost3DApp.swift */; };
+		06062EC9F0E247739D8282A4 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436CE18694F493E8EBA2F59 /* Models/Material.swift */; };
+		BA7447E86A9143F6A55EA8CD /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9871B2DCEB27425D83BF30F5 /* Models/Defaults.swift */; };
+		0BA81C390ECC45DDA7F9A514 /* Pricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16BAB7AC5DA468BACDCA908 /* Models/Pricing.swift */; };
+		C8D9EC86C3204E66893ABF3B /* SwishQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F2999FC4D4F4B9EF18CFD /* Services/SwishQR.swift */; };
+		0D68B5BA422947B3A76D2896 /* InvoiceNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B7317CF1948E29C22973A /* Services/InvoiceNumber.swift */; };
+		08D18B4E714E483CAD38AFCD /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A794DCFE1BA4E37904DB46C /* Services/PDFGenerator.swift */; };
+		9A27622BDE9B47FCA53B7388 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47115B68DC064D5FA26FA225 /* Utils/ImagePicker.swift */; };
+		7273CA4F03804099990C3B99 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D26D4DECE840E5969CFF3F /* Utils/ShareSheet.swift */; };
+		2B75CC88655D49E2B9916E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6D802246149CB9D137800 /* Views/ContentView.swift */; };
+		1A4816C90D514ED5A88BA544 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8AF1E70B147D7863F391F /* Views/SettingsView.swift */; };
+		F2B32B44B000456FA723B6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE8CF9AFE0641E8920C2194 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F79777DDDE74873B77CA703 /* Tyrfrost3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tyrfrost3DApp.swift; sourceTree = "<group>"; };
+		0436CE18694F493E8EBA2F59 /* Models/Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Material.swift; sourceTree = "<group>"; };
+		9871B2DCEB27425D83BF30F5 /* Models/Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Defaults.swift; sourceTree = "<group>"; };
+		E16BAB7AC5DA468BACDCA908 /* Models/Pricing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Pricing.swift; sourceTree = "<group>"; };
+		CC4F2999FC4D4F4B9EF18CFD /* Services/SwishQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/SwishQR.swift; sourceTree = "<group>"; };
+		233B7317CF1948E29C22973A /* Services/InvoiceNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/InvoiceNumber.swift; sourceTree = "<group>"; };
+		7A794DCFE1BA4E37904DB46C /* Services/PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PDFGenerator.swift; sourceTree = "<group>"; };
+		47115B68DC064D5FA26FA225 /* Utils/ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils/ImagePicker.swift; sourceTree = "<group>"; };
+		B7D26D4DECE840E5969CFF3F /* Utils/ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils/ShareSheet.swift; sourceTree = "<group>"; };
+		C5F6D802246149CB9D137800 /* Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		15C8AF1E70B147D7863F391F /* Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		2D6A8F2F41BF43DB8097727A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE8CF9AFE0641E8920C2194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C75D0E54DD41F89842B607 /* Tyrfrost3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Tyrfrost3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DFF1147CFAE4123A8F722B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = {
+			};
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8EC955A5F54496A8E652CD = {
+			isa = PBXGroup;
+			children = {
+				3D59CC616DD247EC8B624452 /* Tyrfrost3D */,
+				94C75D0E54DD41F89842B607 /* Tyrfrost3D.app */,
+			};
+			sourceTree = "<group>";
+		};
+		3D59CC616DD247EC8B624452 /* Tyrfrost3D */ = {
+			isa = PBXGroup;
+			children = {
+				1F79777DDDE74873B77CA703 /* Tyrfrost3DApp.swift */,
+				0436CE18694F493E8EBA2F59 /* Models/Material.swift */,
+				9871B2DCEB27425D83BF30F5 /* Models/Defaults.swift */,
+				E16BAB7AC5DA468BACDCA908 /* Models/Pricing.swift */,
+				CC4F2999FC4D4F4B9EF18CFD /* Services/SwishQR.swift */,
+				233B7317CF1948E29C22973A /* Services/InvoiceNumber.swift */,
+				7A794DCFE1BA4E37904DB46C /* Services/PDFGenerator.swift */,
+				47115B68DC064D5FA26FA225 /* Utils/ImagePicker.swift */,
+				B7D26D4DECE840E5969CFF3F /* Utils/ShareSheet.swift */,
+				C5F6D802246149CB9D137800 /* Views/ContentView.swift */,
+				15C8AF1E70B147D7863F391F /* Views/SettingsView.swift */,
+				2D6A8F2F41BF43DB8097727A /* Info.plist */,
+				BDE8CF9AFE0641E8920C2194 /* Assets.xcassets */,
+			};
+			path = Tyrfrost3D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0632749136184A9A82B819A2 /* Tyrfrost3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EADC481E6E4B7DA1071157 /* Build configuration list for PBXNativeTarget "Tyrfrost3D" */;
+			buildPhases = {
+				10A28B5045214D21A30DA34D /* Sources */,
+				1DFF1147CFAE4123A8F722B6 /* Frameworks */,
+				0A1E79DF4F474C5D802BE7A6 /* Resources */,
+			};
+			buildRules = {
+			};
+			dependencies = {
+			};
+			name = Tyrfrost3D;
+			productName = Tyrfrost3D;
+			productReference = 94C75D0E54DD41F89842B607 /* Tyrfrost3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70FDB347C68452EB6E4D8DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0632749136184A9A82B819A2 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = C6CA5F17564D442EBB03887A /* Build configuration list for PBXProject "Tyrfrost3D" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = {
+				en,
+				Base,
+			};
+			mainGroup = 6B8EC955A5F54496A8E652CD;
+			productRefGroup = 6B8EC955A5F54496A8E652CD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = {
+				0632749136184A9A82B819A2 /* Tyrfrost3D */,
+			};
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A1E79DF4F474C5D802BE7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = {
+				F2B32B44B000456FA723B6CB /* Assets.xcassets in Resources */,
+			};
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A28B5045214D21A30DA34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = {
+				F573EDF1B07B4C3F90D761E5 /* Tyrfrost3DApp.swift in Sources */,
+				06062EC9F0E247739D8282A4 /* Material.swift in Sources */,
+				BA7447E86A9143F6A55EA8CD /* Defaults.swift in Sources */,
+				0BA81C390ECC45DDA7F9A514 /* Pricing.swift in Sources */,
+				C8D9EC86C3204E66893ABF3B /* SwishQR.swift in Sources */,
+				0D68B5BA422947B3A76D2896 /* InvoiceNumber.swift in Sources */,
+				08D18B4E714E483CAD38AFCD /* PDFGenerator.swift in Sources */,
+				9A27622BDE9B47FCA53B7388 /* ImagePicker.swift in Sources */,
+				7273CA4F03804099990C3B99 /* ShareSheet.swift in Sources */,
+				2B75CC88655D49E2B9916E7B /* ContentView.swift in Sources */,
+				1A4816C90D514ED5A88BA544 /* SettingsView.swift in Sources */,
+			};
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1E0B086768F47AEBA137A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tyrfrost3D/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.dittnamn.Tyrfrost3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			};
+			name = Debug;
+		};
+		9A1114654A3049DDA6517041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tyrfrost3D/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.dittnamn.Tyrfrost3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			};
+			name = Release;
+		};
+		3E008EB8E9FC45928D699359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = { };
+			name = Debug;
+		};
+		1D5D4238F29048C1B82DF230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = { };
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6CA5F17564D442EBB03887A /* Build configuration list for PBXProject "Tyrfrost3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = {
+				A1E0B086768F47AEBA137A6E /* Debug */,
+				9A1114654A3049DDA6517041 /* Release */,
+			};
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EADC481E6E4B7DA1071157 /* Build configuration list for PBXNativeTarget "Tyrfrost3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = {
+				3E008EB8E9FC45928D699359 /* Debug */,
+				1D5D4238F29048C1B82DF230 /* Release */,
+			};
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70FDB347C68452EB6E4D8DE /* Project object */;
+}

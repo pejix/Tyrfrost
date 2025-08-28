@@ -1,0 +1,23 @@
+workflows:
+  ios-testflight:
+    name: iOS TestFlight (API key)
+    max_build_duration: 60
+    environment:
+      vars:
+        XCODE_PROJECT: "Tyrfrost3D/Tyrfrost3D.xcodeproj"
+        XCODE_SCHEME: "Tyrfrost3D"
+      xcode: latest
+    scripts:
+      - name: Install fastlane
+        script: |
+          gem install bundler
+          bundle install
+      - name: Decode App Store Connect API key
+        script: |
+          echo "$APP_STORE_CONNECT_API_KEY_BASE64" | base64 --decode > ./AuthKey.p8
+      - name: Build & Upload (fastlane)
+        script: |
+          bundle exec fastlane ios beta
+    publishing:
+      app_store_connect:
+        api_key: $APP_STORE_CONNECT_API_KEY_ID
